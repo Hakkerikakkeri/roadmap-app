@@ -1,0 +1,122 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+.App {
+  background-color: #171823;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  background-color: #171823;
+  height: 2%;
+}
+
+.title{
+  margin-left: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #41a38b;
+  text-shadow: 0px 0px 5px rgba(65, 163, 139, 1);
+}
+
+.roadmap{
+  width: 100%;
+  height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171823;
+}
+
+.map-box{
+  width: 30%;
+  padding: 12px;
+  background-color: #252631;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin: 5px;
+  flex-direction: row;
+}
+
+#map-icons{
+  margin-left: 4px;
+  padding: 14px 14px;
+  background-color: #41a38a6b;
+  border-radius: 8px;
+  color: #41a38b;
+  font-size: 28px;
+  text-shadow: 0px 0px 5px rgba(65, 163, 139, 1);
+}
+
+.map-info{
+  color: white;
+}
+
+.info{
+  margin: 0;
+}
+
+.name{
+  font-weight: 600;
+}
+
+.status{
+  color: rgba(255, 255, 255, 0.397);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #252631;
+  background-color: #171823;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.server{
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+span{
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #fd903d3f;
+  color: #fd903d;
+}
+
+a{
+  text-decoration: none;
+  color: #fd903d;
+}
+
+.discord{
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 25px;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.discord:hover{
+  transition: 250ms;
+  background-color: #7289da60;
+}
+
+@media only screen and (max-width: 1000px) {
+  .map-box{
+    width: 88%;
+  }
+}
